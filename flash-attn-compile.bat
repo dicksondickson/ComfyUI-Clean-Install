@@ -1,3 +1,5 @@
+:: Install comfyui and torch first
+
 pip install packaging
 pip install wheel
 pip uninstall -y ninja && pip install ninja
