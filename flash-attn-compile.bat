@@ -20,4 +20,8 @@ set MAX_JOBS=10
 
 :: start compile
 python setup.py install
+
+:: build wheel
+:: python setup.py bdist_wheel
+
 pause
