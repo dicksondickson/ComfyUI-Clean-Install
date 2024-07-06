@@ -11,12 +11,12 @@ Installs torch nightly.
 
 Installs ComfyUI in a venv.
 
-# flash-attn-pip-compile.bat
-
-Compiles and installs Flash Attention via pip. This is the recommended way.  
-Requires Visual Studio 2022 with C++ build tools installed.
-Requires CUDA. Latest version recommended. Tested with CUDA 12.5
-
 # flash-attn-clone-source-compile.bat
 
-Clones Flash Attention source, compiles and installs. This is not the recommended.
+Clones Flash Attention source, compiles and installs. This is test to work in Windows and Comfy.  
+Requires Visual Studio 2022 with C++ build tools installed.  
+Requires CUDA. Latest version recommended. Tested with CUDA 12.5
+
+# flash-attn-pip-compile.bat
+
+Compiles and installs Flash Attention via pip. Although Flash Attention compiles, it seems to be missing something and doesn't work with ComfyUI. Not recommended.
