@@ -2,6 +2,10 @@
 
 Windows batch files to help install a new copy of ComfyUI and ComfyUI-Manager. Also installs required dependecies.
 
+## delete-all-python-packages.bat
+
+Deletes all of the installed Python packages. Good for after you've uninstalled Python and want to start clean.
+
 ## comfyui-fresh-install.bat
 
 Clones and installs ComfyUI and ComfyUI-Manager.  
