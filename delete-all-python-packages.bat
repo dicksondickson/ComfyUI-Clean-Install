@@ -1,6 +1,6 @@
 :: Remove Python packages. Clean slate.
 @echo off
-echo Warning: This will delete the Python directory in %LOCALAPPDATA%\Programs.
+echo Warning: This will delete the Python directory in %LOCALAPPDATA%\Programs\Python.
 set /p choice=Do you want to proceed? Type YES to confirm: 
 
 if /i "%choice%"=="YES" (

@@ -27,7 +27,7 @@ python setup.py bdist_wheel
 
 :: pip install some-package.whl
 cd dist
-
+pip install flash_attn-1.0.9-cp311-cp311-win_amd64.whl 
 
 
 pause
