@@ -1,9 +1,15 @@
 :: Compile Flash attention
 :: Only needed if you want to the use the latest and greatest
 
-:: Install torch nightly
-:: pip uninstall torch
-pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu124
+
+:: Uninstall existing flash-attn
+pip uninstall flash-attn
+
+
+:: Install torch stable
+pip uninstall torch
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
+
 
 pip install packaging
 pip install wheel

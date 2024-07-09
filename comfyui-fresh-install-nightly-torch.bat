@@ -1,4 +1,7 @@
 :: Comfy-UI Clean install + ComfyUI Manager
+:: Installs nightly torch
+
+echo This will install NIGHTLY pytorch, ComfyUI and ComfyUI manager.
 
 pip install setuptools
 

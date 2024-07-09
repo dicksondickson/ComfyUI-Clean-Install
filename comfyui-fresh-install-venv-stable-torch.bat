@@ -1,4 +1,7 @@
 :: Comfy-UI Clean install + ComfyUI Manager in VENV
+:: Create venv install comfy
+
+echo This will create a venv, install STABLE pytorch, ComfyUI and ComfyUI manager.
 
 :: make comfy dir
 mkdir comfyui-venv
@@ -19,8 +22,7 @@ python -m venv venv
 call venv/Scripts/activate
 
 :: install pytorch
-::python -m pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
-pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu124
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
 
 :: Install comfy requirements in venv
 ::python -m pip install -r requirements.txt
