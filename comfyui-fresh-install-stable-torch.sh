@@ -10,7 +10,7 @@ echo "This will install STABLE pytorch, ComfyUI and ComfyUI manager."
 # Install dependencies
 echo "Install dependencies"
 sudo apt install python-is-python3
-sudo apt install python-pip
+sudo apt install python3-pip
 sudo apt install ffmpeg
 pip install setuptools
 
