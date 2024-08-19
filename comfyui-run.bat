@@ -2,7 +2,9 @@
 ::
 :: Args
 ::
+:: Custom output dir. Add the following to the commandline arg
+::  --output-directory "C:\Comfy_OUTPUT"
 
 echo Launching ComfyUI...
 
-python main.py --listen --port 8888 --output-directory "C:\Comfy_OUTPUT"
+python main.py --listen --port 8888
