@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+
 # Run ComfyUI with options
 #
 # Custom output dir. Add the following to the commandline arg
@@ -8,3 +8,4 @@
 echo "Launching ComfyUI..."
 
 python main.py --listen --port 8888
+
